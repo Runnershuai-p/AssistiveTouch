@@ -26,7 +26,6 @@
 - (void)ht_initializeControls {
     [self addSubview:self.content];
     self.backgroundColor = [UIColor clearColor];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(startAnimation:) name:NOTIFI_CONTENT_BEGIN_AT object:nil];
 }
 
@@ -49,7 +48,7 @@
 - (void)openContent:(BOOL)isOpen location:(BOOL)right {
     self.isOpen = isOpen;
     self.content.isRight = right;
-    self.content.backgroundColor = [UIColor blackColor];
+    self.content.backgroundColor = [UIColor whiteColor];
 }
 - (void)startAnimation:(NSNotification *)nofiti {
     
@@ -123,8 +122,8 @@ static CGFloat sp = 10.f;
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.tag = i;
         [btn setTitle:sourceArray[i] forState:UIControlStateNormal];
-        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.titleLabel.font = [UIFont systemFontOfSize:17.f];
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        btn.titleLabel.font = [UIFont systemFontOfSize:16.f];
         [btn addTarget:self action:@selector(clickAnimationViewContenViewAction:) forControlEvents: UIControlEventTouchUpInside];
         [self addSubview:btn];
         [self.buttonArray addObject:btn];

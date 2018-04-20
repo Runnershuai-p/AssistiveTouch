@@ -25,11 +25,11 @@
 #define SingleWidth 60.f
 
 
-#define AsTouchWidth 60.f
-#define AsTouchHeight 60.f
+#define AsTouchWidth 50.f
+#define AsTouchHeight 50.f
 
 // 张开content 上下间距
-#define MaskSP 6.f
+#define MaskSP 5.f
 
 //after time
 

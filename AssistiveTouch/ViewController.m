@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIView *bgView = [[UIView alloc] initWithFrame:CGRectZero];
-    bgView.backgroundColor = [UIColor orangeColor];
+    bgView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     bgView.tag = 1000;
     [self.view addSubview:bgView];
     UIViewController *vc1 = [UIViewController new];
@@ -32,7 +32,7 @@
     vc3.view.backgroundColor  = [UIColor cyanColor];
 
     [AssistiveTouch shareAssTouch].expansionArray = @[@"注册",@"登录",@"大密室"];
-    [[AssistiveTouch shareAssTouch] showTouchImage:[UIImage imageNamed:@"left"] didSelectExpansionContent:^(NSInteger selectIndex) {
+    [[AssistiveTouch shareAssTouch] showTouchImage:[UIImage imageNamed:@"ass_touch_icon.png"] didSelectExpansionContent:^(NSInteger selectIndex) {
         
         switch (selectIndex) {
             case 0:
