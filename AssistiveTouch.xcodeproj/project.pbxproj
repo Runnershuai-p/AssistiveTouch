@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CF31DF92A5EC90200B02782 /* AUXTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF31DF82A5EC90200B02782 /* AUXTouchView.m */; };
 		544DC5AB201F2446005AB250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5AA201F2446005AB250 /* AppDelegate.m */; };
 		544DC5AE201F2446005AB250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5AD201F2446005AB250 /* ViewController.m */; };
 		544DC5B1201F2446005AB250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544DC5AF201F2446005AB250 /* Main.storyboard */; };
 		544DC5B3201F2446005AB250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544DC5B2201F2446005AB250 /* Assets.xcassets */; };
 		544DC5B6201F2446005AB250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544DC5B4201F2446005AB250 /* LaunchScreen.storyboard */; };
 		544DC5B9201F2446005AB250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5B8201F2446005AB250 /* main.m */; };
-		544DC5C7201F2470005AB250 /* UIView+AnimationRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5C2201F2470005AB250 /* UIView+AnimationRules.m */; };
-		544DC5C8201F2470005AB250 /* TyzpFloatAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5C3201F2470005AB250 /* TyzpFloatAnimationView.m */; };
-		544DC5C9201F2470005AB250 /* AssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DC5C5201F2470005AB250 /* AssistiveTouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CF31DF72A5EC90200B02782 /* AUXTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUXTouchView.h; sourceTree = "<group>"; };
+		1CF31DF82A5EC90200B02782 /* AUXTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUXTouchView.m; sourceTree = "<group>"; };
 		544DC5A6201F2446005AB250 /* AssistiveTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistiveTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		544DC5A9201F2446005AB250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		544DC5AA201F2446005AB250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,13 +29,6 @@
 		544DC5B5201F2446005AB250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544DC5B7201F2446005AB250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544DC5B8201F2446005AB250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		544DC5C0201F2470005AB250 /* TyzpFloatAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyzpFloatAnimationView.h; sourceTree = "<group>"; };
-		544DC5C1201F2470005AB250 /* AssistiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistiveTouch.h; sourceTree = "<group>"; };
-		544DC5C2201F2470005AB250 /* UIView+AnimationRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationRules.m"; sourceTree = "<group>"; };
-		544DC5C3201F2470005AB250 /* TyzpFloatAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyzpFloatAnimationView.m; sourceTree = "<group>"; };
-		544DC5C4201F2470005AB250 /* UIView+AnimationRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationRules.h"; sourceTree = "<group>"; };
-		544DC5C5201F2470005AB250 /* AssistiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistiveTouch.m; sourceTree = "<group>"; };
-		544DC5C6201F2470005AB250 /* MacroParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroParameters.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +78,8 @@
 		544DC5BF201F2470005AB250 /* Touch */ = {
 			isa = PBXGroup;
 			children = (
-				544DC5C6201F2470005AB250 /* MacroParameters.h */,
-				544DC5C0201F2470005AB250 /* TyzpFloatAnimationView.h */,
-				544DC5C3201F2470005AB250 /* TyzpFloatAnimationView.m */,
-				544DC5C4201F2470005AB250 /* UIView+AnimationRules.h */,
-				544DC5C2201F2470005AB250 /* UIView+AnimationRules.m */,
-				544DC5C1201F2470005AB250 /* AssistiveTouch.h */,
-				544DC5C5201F2470005AB250 /* AssistiveTouch.m */,
+				1CF31DF72A5EC90200B02782 /* AUXTouchView.h */,
+				1CF31DF82A5EC90200B02782 /* AUXTouchView.m */,
 			);
 			path = Touch;
 			sourceTree = "<group>";
@@ -122,12 +110,12 @@
 		544DC59E201F2446005AB250 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = Pan;
 				TargetAttributes = {
 					544DC5A5201F2446005AB250 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -168,11 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				544DC5AE201F2446005AB250 /* ViewController.m in Sources */,
-				544DC5C7201F2470005AB250 /* UIView+AnimationRules.m in Sources */,
+				1CF31DF92A5EC90200B02782 /* AUXTouchView.m in Sources */,
 				544DC5B9201F2446005AB250 /* main.m in Sources */,
 				544DC5AB201F2446005AB250 /* AppDelegate.m in Sources */,
-				544DC5C8201F2470005AB250 /* TyzpFloatAnimationView.m in Sources */,
-				544DC5C9201F2470005AB250 /* AssistiveTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +198,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -219,8 +206,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -246,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,6 +256,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -274,8 +264,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -295,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -307,13 +299,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EG4MG485GE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZC85U9K6LF;
 				INFOPLIST_FILE = AssistiveTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teemofaster.AssistiveTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = ablvka.hqbd.oicdi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 20230614_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -323,13 +317,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EG4MG485GE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZC85U9K6LF;
 				INFOPLIST_FILE = AssistiveTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teemofaster.AssistiveTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = ablvka.hqbd.oicdi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 20230614_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

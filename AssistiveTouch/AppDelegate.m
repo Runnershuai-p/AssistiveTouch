@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AUXTouchView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [[AUXTouchView shareTouch] drawAUXTouchView];
+        [[AUXTouchView shareTouch].dataSource addObject:@"账号"];
+        [[AUXTouchView shareTouch].dataSource addObject:@"客服"];
+        [[AUXTouchView shareTouch].dataSource addObject:@"退出"];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [[AUXTouchView shareTouch].dataSource insertObject:@"红包" atIndex:2];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [[AUXTouchView shareTouch].dataSource removeObject:@"客服"];
+            });
+        });
+        
+    });
+    
     return YES;
 }
 
